@@ -1,0 +1,30 @@
+.nav {
+    justify-content: space-between;
+    background-color: gray;
+}
+.nav h1 {
+    background-color: aqua;
+}
+.nav nav {
+    display: flex;
+    align-items: center;
+}
+.nav nav a {  
+    padding: 10px;
+    font-size: 14px;
+}
+.subtitle {
+    display: flex;
+    background-color: blue;
+    justify-content: flex-end;
+    height: 150px;
+}
+.subtitle p {
+    align-self: flex-end;
+    background-color: aqua;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
