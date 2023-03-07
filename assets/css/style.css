@@ -13,9 +13,13 @@
     padding: 10px;
     font-size: 14px;
 }
+.headerimg {
+    background-image: url("/assets/img/utah-the-fort-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .subtitle {
     display: flex;
-    background-color: blue;
     justify-content: flex-end;
     height: 150px;
 }
@@ -72,4 +76,9 @@
     border-right: 5px solid;
     height: 100%;
     padding: 50px;
+}
+
+.picofme {
+    width: 35%;
+    height: 300px;
 }
