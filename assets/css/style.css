@@ -28,3 +28,48 @@
     flex-direction: row;
     flex-wrap: wrap;
   }
+
+  .left-side {
+    flex-basis: 100%;
+    background-color: blueviolet;
+  }
+
+  .right-side {
+    flex-basis: 100%;
+    background-color: brown;
+  }
+@media only screen and (min-width: 768px) {
+
+  .left-side {
+    flex-basis: 30%;
+  }
+
+  .right-side {
+    flex-basis: 70%;
+}
+}
+  /* end of media query */
+  .card {
+    text-align: center;
+    border-style: solid;
+    height: 340px;
+    padding: 20%;
+  }
+
+  .CD-100 {
+    flex-basis: 100%;
+  }
+
+ .CD-50 {
+    flex-basis: 50%;
+}
+.text-center {
+    text-align: center;
+
+}
+
+.border {
+    border-right: 5px solid;
+    height: 100%;
+    padding: 50px;
+}
