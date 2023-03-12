@@ -14,7 +14,7 @@
     font-size: 14px;
 }
 .headerimg {
-    background-image: url("/assets/img/utah-the-fort-1.jpg");
+    background-image: url("../img/utah-the-fort-1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -96,5 +96,5 @@
 
 .picofme {
     width: 30%;
-    height: 30px;
+    height: 300px;
 }
