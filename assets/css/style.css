@@ -63,13 +63,13 @@
   .CD-100 {
     flex-basis: 100%;
     border: 2px solid #ffffff;
-    background-image: url("/assets/img/html&css.jpg");
+    background-image: url("../img/html&css.jpg");
     background-repeat: no-repeat;
     background-size: cover;
   }
   .CD-100:hover {
     flex-basis: 100%;
-    background-image: url("/assets/img/HTML-VS-CSS-Barebone-Structure-Vs-Style.webp");
+    background-image: url("../img/HTML-VS-CSS-Barebone-Structure-Vs-Style.webp");
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -79,7 +79,7 @@
 }
 .CD-50:hover {
   flex-basis: 50%;
-  background-image: url("/assets/img/Coming\ soon.avif");
+  background-image: url("../img/Coming\ soon.avif");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -95,6 +95,6 @@
 }
 
 .picofme {
-    width: 35%;
-    height: 300px;
+    width: 30%;
+    height: 30px;
 }
