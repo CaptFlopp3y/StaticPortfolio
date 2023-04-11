@@ -1,47 +1,62 @@
 .nav {
-    justify-content: space-between;
-    background-color: gray;
+  justify-content: space-between;
+  background-color: rgba(89, 169, 216, 0.411);
 }
+
 .nav h1 {
-    background-color: aqua;
+  background-color: rgb(115, 233, 233);
 }
+
 .nav nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
-.nav nav a {  
-    padding: 10px;
-    font-size: 14px;
+
+.nav nav a {
+  padding: 10px;
+  font-size: 14px;
 }
+
 .headerimg {
-    background-image: url("../img/utah-the-fort-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url("../img/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 30vh;
+  background-position: center;
 }
+
 .subtitle {
-    display: flex;
-    justify-content: flex-end;
-    height: 150px;
+  display: flex;
+  justify-content: flex-end;
+  height: 150px;
 }
+
 .subtitle p {
-    align-self: flex-end;
-    background-color: aqua;
+  align-self: flex-end;
+  background-color: aqua;
 }
+
 .row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  }
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
-  .left-side {
-    flex-basis: 100%;
-    background-color: blueviolet;
-  }
+.left-side {
+  flex-basis: 100%;
+  background-color: rgb(88, 73, 172);
+}
 
-  .right-side {
-    flex-basis: 100%;
-    background-color: brown;
-  }
+.right-side {
+  flex-basis: 100%;
+  display: flex;
+  background-color: rgb(118, 102, 139);
+}
+
+.right-side p {
+  align-self: center;
+}
+
 @media only screen and (min-width: 768px) {
 
   .left-side {
@@ -50,51 +65,69 @@
 
   .right-side {
     flex-basis: 70%;
-}
-}
-  /* end of media query */
-  .card {
-    text-align: center;
-    border-style: solid;
-    height: 340px;
-    padding: 20%;
+    display: flex;
   }
+}
 
-  .CD-100 {
-    flex-basis: 100%;
-    border: 2px solid #ffffff;
-    background-image: url("../img/html&css.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .CD-100:hover {
-    flex-basis: 100%;
-    background-image: url("../img/HTML-VS-CSS-Barebone-Structure-Vs-Style.webp");
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
- .CD-50 {
-    flex-basis: 50%;
+/* end of media query */
+.card {
+  text-align: center;
+  border-style: solid;
+  height: 340px;
+  position: relative;
 }
+
+.CD-100 {
+  flex-basis: 100%;
+  border: 2px solid #ffffff;
+}
+
+.CD-100 img {
+  height: 311px;
+  width: 98%;
+}
+
+.CD-50 {
+  flex-basis: 50%;
+}
+
+.CD-90 {
+  flex-basis: 50%;
+}
+
+.CD-90 img {
+  height: 310px;
+  width: 100%;
+}
+
+.CD-80 {
+  flex-basis: 50%;
+}
+
+.CD-80 img {
+  height: 310px;
+  width: 100%;
+}
+
 .CD-50:hover {
   flex-basis: 50%;
   background-image: url("../img/Coming\ soon.avif");
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .text-center {
-    text-align: center;
+  text-align: center;
 
 }
 
 .border {
-    border-right: 5px solid;
-    height: 100%;
-    padding: 50px;
+  border-right: 5px solid;
+  height: 100%;
+  padding: 50px;
 }
 
 .picofme {
-    width: 30%;
-    height: 300px;
+  width: 30%;
+  height: 300px;
 }
